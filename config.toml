@@ -1,0 +1,40 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "GrumpieZ"
+themesDir = "themes"
+theme = "hugo-hero-theme"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.92.0"
+    
+[params]
+  google_analytics_id=""
+
+  [params.logo]
+    mobile = "images/logo.png"
+    mobile_height = "36px"
+    mobile_width = "36px"
+    desktop = "images/logo.png"
+    desktop_height = "29px"
+    desktop_width = "280px"
+    alt = "Hugo Hero"
+
+  [params.homepage_meta_tags]
+    meta_description = ""
+    meta_og_title = ""
+    meta_og_type = "website"
+    meta_og_url = ""
+    meta_og_image = ""
+    meta_og_description = "H"
+    meta_twitter_card = ""
+    meta_twitter_site = "@"
+    meta_twitter_creator = "@"
+
+[[menu.main]]
+
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
