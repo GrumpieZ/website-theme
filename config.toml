@@ -1,7 +1,6 @@
 baseURL = "//grumpiez.github.io"
 languageCode = "en-us"
 title = "GrumpieZ"
-themesDir = "themes"
 theme = "hugo-hero-theme"
 
 [module]
